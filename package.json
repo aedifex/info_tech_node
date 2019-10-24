@@ -1,0 +1,28 @@
+{
+  "name": "circlese-node-demo",
+  "version": "1.0.0",
+  "description": "A sample Node & Express application to demonstrate key CircleCI concepts.",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aedifex/node-demo.git"
+  },
+  "author": "Aedifex",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aedifex/node-demo/issues"
+  },
+  "homepage": "https://github.com/aedifex/node-demo#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mocha": "^6.2.1",
+    "multer": "^1.4.2",
+    "request": "^2.88.0"
+  }
+}
